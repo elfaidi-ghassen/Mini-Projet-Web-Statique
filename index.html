@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+    ideas
+    image tint
+    footer go up
+ -->
+<head lang="fr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Motherboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Composants de Carte Mère</h1>
+        <h4>Ghassen Faidi P-PIIM TD3</h4>
+    </header>
+    <main>
+        <h2># — Guide</h2>
+        
+        <img src="Images/motherboard.png" alt="motherboard" width="600px" usemap="#motherboard">
+        <map name="motherboard">
+
+            <area target="" alt="cpu-socket" title="cpu-socket" href="#socket"
+                coords="171,109,153,173,230,175,239,109,205,109,189,111" shape="poly">
+            <area target="" alt="chipset" title="chipset" href="" coords="374,89,375,105,399,107,404,101,401,89"
+                shape="poly">
+            <area target="" alt="pci -slot" title="pci -slot" href=""
+                coords="374,105,371,117,384,203,463,206,469,193,439,105,402,104,397,111,385,105,380,105" shape="poly">
+            <area target="" alt="ram-slot" title="ram-slot" href="#ram"
+                coords="165,76,164,85,175,89,181,103,340,102,341,76,331,75,329,82,190,82,174,74" shape="poly">
+            <area target="" alt="bios" title="bios" href="" coords="395,236,396,246,411,246,409,236" shape="poly">
+            <area target="" alt="cmos" title="cmos" href="" coords="350,153,14" shape="circle">
+            <area target="" alt="parallelport" title="parallelport" href=""
+                coords="185,214,180,235,164,238,169,256,187,258,252,260,263,250,262,238,265,223,252,213" shape="poly">
+            <area target="" alt="gameport" title="gameport" href=""
+                coords="298,212,297,234,286,235,289,260,358,259,358,233,348,232,346,212,328,212,309,212" shape="poly">
+            <area target="" alt="ps-2-mouse" title="ps-2-mouse" href="" coords="100,249,8" shape="circle">
+            <area target="" alt="ps-2-kb" title="ps-2-kb" href="" coords="116,262,8" shape="circle">
+            <area target="" alt="co-processor" title="co-processor" href="" coords="260,124,259,168,311,167,310,123"
+                shape="poly">
+            <area target="" alt="vga" title="vga" href="" coords="241,260,238,268,240,277,269,276,267,261" shape="poly">
+            <area target="" alt="usb" title="usb" href="" coords="138,229,129,254,139,267,158,267,164,248,159,230,149,229"
+                shape="poly">
+            <area target="" alt="audio" title="audio" href="" coords="313,260,328,261,324,270,315,270" shape="poly">
+            <area target="" alt="graphique" title="graphique" href=""
+                coords="444,76,432,76,427,90,435,102,440,103,471,194,469,203,478,230,492,229,502,215" shape="poly">
+        </map>
+
+        <p></p>
+
+        <h2># — Composants en details</h2>
+        <hr>
+        <h3 id="socket">## CPU Socket</h3>
+        <p>Un socket est un connecteur utilisé pour interfacer un processeur avec une carte mère. <span>—Wikipedia</span>
+        <br>En autres mots, où le CPU est placé</p>
+        <figure>
+            <img src="Images/socket.jpg" alt="" width="300px">
+            <figcaption>Socket pour microprocesseur</figcaption>
+        </figure>
+        <hr>
+        <h3 id="ram">## Ram slot</h3>
+        <figure>
+            <p>
+                Un socket est un connecteur utilisé pour interfacer un ram avec une carte mère.
+                <br>En autres mots, où le RAM (Random Access Memory) est placé
+            </p>
+            <img src="Images/ramslot.jpg" alt="" width="300px">
+            <figcaption>Ram Slot</figcaption>
+        </figure>
+        <hr>
+        <h3 id="pci">## PCI (Peripheral Component Interconnect)</h3>
+        <q>
+          Le PCI est un standard de bus local (interne) permettant de connecter des cartes d'extension sur la carte mère d'un ordinateur.
+        </q> <span>—Wikipedia</span>
+        <br>
+        Le PCI est généralement utilisé dans les ordinateurs personnels. Voici une liste non exhaustive de cartes d'extension généralement connectées à ce port :
+        <ul>
+            <li>carte son</li>
+            <li>carte graphique</li>
+            <li>carte réseau</li>
+        </ul>
+        <figure>
+            <img src="Images/pci.jfif" alt="" width="300px">
+            <figcaption>Peripheral Component Interconnect</figcaption>
+        </figure>
+
+        <hr>
+
+        <h3 id="agp">## AGP (Accelerated Graphics Port)</h3>
+        <q>
+            L'AGP était un port interne destiné exclusivement aux cartes graphiques. Successeur pour ces périphériques du bus PCI, l’AGP permet aux informations de circuler plus rapidement.
+        </q> <span>—Wikipedia</span>
+        <figure>
+
+            <img src="Images/agp.jpg" alt="" width="300px">
+            <figcaption>Accelerated Graphics Port</figcaption>
+        </figure>
+
+        <hr>
+
+        <h3 id="bios">## BIOS (Basic Input/Output System)</h3>
+        <q>
+            Le BIOS est principalement utilisé sur les systèmes informatiques utilisant l'architecture de processeur. Il comporte un ensemble de fonctions, <b>contenu dans la mémoire morte</b> (ROM) de la carte mère de ces ordinateurs, lui <b>permettant d'effectuer des opérations de base</b>, lors de sa mise sous tension. Par exemple l'identification et l'initialisation des périphériques d'alimentation et d’entrée/sortie connectés et la lecture du système d'amorçage
+        </q> <span>—Wikipedia</span>
+       <p>Le BIOS a un rôle essentiel pour le fonctionnement de la carte mère :</p>
+        <ul>
+            <li>
+                il initialise tous les composants de la carte mère, du chipset et de certains périphériques ;
+            </li>
+            <li>
+                il identifie tous les périphériques internes et externes qui lui sont connectés ;
+            </li>
+            <li>
+                si cela n'a pas déjà été fait il initialise l'ordre de priorité des périphériques d'entrée ;
+            </li>
+            <li>
+                il démarre le système d'exploitation dans l'ordre croissant des périphériques disponibles en contenant un (fonction dite d'amorçage, ou en anglais : bootstrap).
+            </li>
+        </ul>
+        <figure>
+
+            <img src="Images/bios.jpg" alt="" width="300px">
+            <figcaption>Basic Input/Output System</figcaption>
+        </figure>
+
+
+        <hr>
+
+        <h3 id="agp">## Port PS/2 souris et clavier</h3>
+        <q>
+            PS / 2 est un type de port utilisé par les ordinateurs plus anciens pour la connexion des dispositifs d'entrée tel que claviers et souris.</q>
+             <span>—techlib.fr</span>
+        <figure>
+            <img src="Images/PS2.jpg" alt="" width="300px">
+            <figcaption>PS/2 souris et clavier </figcaption>
+        </figure>
+
+
+        <hr>
+
+        <h3 id="agp">## Port USB</h3>
+        <q>
+            C'est un port pour l'USB (de l'anglais, « Universal Serial Bus ») est une norme de bus informatique série qui sert à connecter des périphériques informatiques à un ordinateur
+        </q>
+        <span>—Wikipedia</span>
+        <figure>
+            <img src="Images/usb.jpg" alt="" width="300px">
+            <figcaption>PS/2 souris et clavier </figcaption>
+        </figure>
+        <p>Il ya beaucoup types de USB:</p>
+        <figure>
+            <img src="Images/types-sub.webp" alt="" width="500px">
+            <figcaption>ifi-audio.com</figcaption>
+        </figure>
+
+        <hr>
+        <h3 id="agp">## Port Parallel</h3>
+        <h3 id="agp">## Port Audio Port</h3>
+        <h3 id="agp">## Port Game</h3>
+        <h3 id="agp">## CMOS</h3>
+        <h3 id="agp">## co-processor</h3>
+
+
+
+    </main>
+    <footer>
+        <p>2023</p>
+        <p>Image source</p>
+    </footer>
+    
+
+</body>
+
+</html>
