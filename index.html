@@ -15,39 +15,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="top">
         <h1>Composants de Carte Mère</h1>
         <h4>Ghassen Faidi P-PIIM TD3</h4>
     </header>
     <main>
-        <h2># — Guide</h2>
+        <h2 id="guide"># — Guide</h2>
         
         <img src="Images/motherboard.png" alt="motherboard" width="600px" usemap="#motherboard">
         <map name="motherboard">
 
-            <area target="" alt="cpu-socket" title="cpu-socket" href="#socket"
+            <area alt="cpu-socket" title="cpu-socket" href="#socket"
                 coords="171,109,153,173,230,175,239,109,205,109,189,111" shape="poly">
-            <area target="" alt="chipset" title="chipset" href="" coords="374,89,375,105,399,107,404,101,401,89"
+            <area alt="chipset" title="chipset" href="#chipset" coords="374,89,375,105,399,107,404,101,401,89"
                 shape="poly">
-            <area target="" alt="pci -slot" title="pci -slot" href=""
+            <area target="" alt="pci-slot" title="pci-slot" href="#pci"
                 coords="374,105,371,117,384,203,463,206,469,193,439,105,402,104,397,111,385,105,380,105" shape="poly">
             <area target="" alt="ram-slot" title="ram-slot" href="#ram"
                 coords="165,76,164,85,175,89,181,103,340,102,341,76,331,75,329,82,190,82,174,74" shape="poly">
-            <area target="" alt="bios" title="bios" href="" coords="395,236,396,246,411,246,409,236" shape="poly">
-            <area target="" alt="cmos" title="cmos" href="" coords="350,153,14" shape="circle">
-            <area target="" alt="parallelport" title="parallelport" href=""
+            <area target="" alt="bios" title="bios" href="#bios" coords="395,236,396,246,411,246,409,236" shape="poly">
+            <area target="" alt="cmos" title="cmos" href="#cmos" coords="350,153,14" shape="circle">
+            <area target="" alt="parallelport" title="parallelport" href="#parallel"
                 coords="185,214,180,235,164,238,169,256,187,258,252,260,263,250,262,238,265,223,252,213" shape="poly">
-            <area target="" alt="gameport" title="gameport" href=""
+            <area target="" alt="gameport" title="gameport" href="#gameport"
                 coords="298,212,297,234,286,235,289,260,358,259,358,233,348,232,346,212,328,212,309,212" shape="poly">
-            <area target="" alt="ps-2-mouse" title="ps-2-mouse" href="" coords="100,249,8" shape="circle">
-            <area target="" alt="ps-2-kb" title="ps-2-kb" href="" coords="116,262,8" shape="circle">
-            <area target="" alt="co-processor" title="co-processor" href="" coords="260,124,259,168,311,167,310,123"
+            <area target="" alt="ps-2-mouse" title="ps-2-mouse" href="#ps-2" coords="100,249,8" shape="circle">
+            <area target="" alt="ps-2-kb" title="ps-2-kb" href="#ps-2" coords="116,262,8" shape="circle">
+            <area target="" alt="co-processor" title="co-processor" href="#co-processor" coords="260,124,259,168,311,167,310,123"
                 shape="poly">
-            <area target="" alt="vga" title="vga" href="" coords="241,260,238,268,240,277,269,276,267,261" shape="poly">
-            <area target="" alt="usb" title="usb" href="" coords="138,229,129,254,139,267,158,267,164,248,159,230,149,229"
+            <area target="" alt="vga" title="vga" href="#vga" coords="241,260,238,268,240,277,269,276,267,261" shape="poly">
+            <area target="" alt="usb" title="usb" href="#usb" coords="138,229,129,254,139,267,158,267,164,248,159,230,149,229"
                 shape="poly">
-            <area target="" alt="audio" title="audio" href="" coords="313,260,328,261,324,270,315,270" shape="poly">
-            <area target="" alt="graphique" title="graphique" href=""
+            <area target="" alt="audio" title="audio" href="#audio" coords="313,260,328,261,324,270,315,270" shape="poly">
+            <area target="" alt="graphique" title="graphique" href="#graphique"
                 coords="444,76,432,76,427,90,435,102,440,103,471,194,469,203,478,230,492,229,502,215" shape="poly">
         </map>
 
@@ -91,7 +91,7 @@
 
         <hr>
 
-        <h3 id="agp">## AGP (Accelerated Graphics Port)</h3>
+        <h3 id="graphique">## AGP (Accelerated Graphics Port)</h3>
         <q>
             L'AGP était un port interne destiné exclusivement aux cartes graphiques. Successeur pour ces périphériques du bus PCI, l’AGP permet aux informations de circuler plus rapidement.
         </q> <span>—Wikipedia</span>
@@ -131,7 +131,7 @@
 
         <hr>
 
-        <h3 id="agp">## Port PS/2 souris et clavier</h3>
+        <h3 id="ps-2">## Port PS/2 souris et clavier</h3>
         <q>
             PS / 2 est un type de port utilisé par les ordinateurs plus anciens pour la connexion des dispositifs d'entrée tel que claviers et souris.</q>
              <span>—techlib.fr</span>
@@ -143,7 +143,7 @@
 
         <hr>
 
-        <h3 id="agp">## Port USB</h3>
+        <h3 id="usb">## Port USB</h3>
         <q>
             C'est un port pour l'USB (de l'anglais, « Universal Serial Bus ») est une norme de bus informatique série qui sert à connecter des périphériques informatiques à un ordinateur
         </q>
@@ -159,18 +159,119 @@
         </figure>
 
         <hr>
-        <h3 id="agp">## Port Parallel</h3>
-        <h3 id="agp">## Port Audio Port</h3>
-        <h3 id="agp">## Port Game</h3>
-        <h3 id="agp">## CMOS</h3>
-        <h3 id="agp">## co-processor</h3>
+        <h3 id="parallel">## Port Parallel</h3>
+        <q>
+            Le port parallèle est un connecteur situé à l'arrière des ordinateurs compatibles PC reposant sur la communication parallèle.
+            La communication parallèle a été conçue pour une imprimante imprimant du texte, caractère par caractère. <b>Les imprimantes</b> graphiques (pouvant imprimer des images) ont ensuite continué à utiliser ce système pour profiter de l'interface parallèle normalisée.
+        </q>
+        <span>—Wikipedia</span>
 
+        <figure>
+            <img src="Images/parallel.jpg" alt="" width="400px">
+            <figcaption>Port parallel </figcaption>
+        </figure>
+    
+
+        <hr>
+
+        <h3 id="audio">## Port audio</h3>
+        <q>
+            La plupart des cartes mères ont au moins trois prises jack 3,5 mm de couleur verte, bleue et rose.
+Dans ce cas, <span style="color: #21bc6f;">la prise audio 3,5 mm verte</span> est appelée <b>prise de sortie ligne</b>. Il s'agit de la prise audio principale pour connecter des écouteurs ou des haut-parleurs stéréo à deux canaux à l'aide d'un câble audio 3,5 mm.
+<span style="color: #219EBC;">La prise audio 3,5 mm bleue</span> est appelée <b>entrée ligne.</b> Nous utilisons cette prise pour connecter des équipements audio externes tels que des lecteurs CD, des amplificateurs, certains instruments de musique, des mixeurs audio, des microphones, etc. à l'ordinateur.
+Nous utilisons essentiellement cette prise pour connecter des sources audio au PC.
+La dernière prise "basique" sur une carte mère est <span style="color: #bc2181;">la prise audio 3,5 mm rose</span>. Elle est appelée <b>entrée micro</b>, abrégée en Microphone In.
+Comme son nom l'indique, nous utilisons cette prise pour connecter des microphones à l'ordinateur. Bien que la prise d'entrée ligne accepte un microphone, le niveau d'amplification de la prise Microphone In ou de la prise rose est bien meilleur.
+        </q>
+        <span>— electronicshub.org</span>
+
+        <figure>
+            <img src="Images/audio.jpg" alt="" width="400px">
+            <figcaption>Port audio </figcaption>
+        </figure>
+    
+
+        <hr>
+
+        <h3 id="gameport">## Port Game (ancien)</h3>
+        
+        <q>
+            Le port de jeu a été le connecteur traditionnel pour périphériques d'entrée de jeu vidéo sur PC x86. À partir des années 90, le port de jeu a souvent été intégré aux entrées/sorties d'un PC via la carte son, soit ISA ou PCI, ou comme un élément intégré à certaines cartes mères. Avant cela, il était généralement sur une carte dédiée ISA. Microsoft a mis fin au support du port de jeu avec Windows Vista,
+        </q>
+        <span>—Wikipedia</span>
+
+        <figure>
+            <img src="Images/gameport.JPG" alt="" width="400px">
+            <figcaption>Game port</figcaption>
+        </figure>
+        
+        <hr>
+
+        <h3 id="cmos">## CMOS</h3>
+        
+        <q>
+            La memoire CMOS permet au BIOS de stocker les paramètres de configuration matérielle. Il permet de conserver une trace de la date et de l'heure de mise hors tension de l'ordinateur.
+        </q>
+        <span>— dell.com</span>
+        <p><b>Donc quel est la difference entre ROM et CMOS?</b></p>
+        <ul>
+            <li>Le BIOS est dans la ROM (Read-only Memory), le BIOS lui-même n'a pas besoin d'énergie électrique.</li>
+            <li>En revanche, les paramètres du BIOS nécessitent de l'énergie, donc les paramètres sont situés dans le CMOS.</li>
+        </ul>
+
+        <figure>
+            <img src="Images/cmos.webp" alt="" width="400px">
+            <figcaption>Battrie CMOS</figcaption>
+        </figure>
+        
+
+        <hr>
+
+        <h3 id="co-processor">## co-processor</h3>
+
+        <q>
+            Un coprocesseur est un circuit électronique destiné à ajouter une fonction à un processeur classique. On compte des coprocesseurs arithmétiques (pour le calcul en virgule flottante), graphiques (pour accélérer du rendu 2D ou 3D) et des coprocesseurs spécialisés dans le chiffrement.        </q>
+        <span>—Wikipedia</span>
+
+        <figure>
+            <img src="Images/co.jpg" alt="" width="400px">
+            <figcaption>co-processeur</figcaption>
+        </figure>
+        
+        <hr>
+
+        <h3 id="vga">## VGA</h3>
+        <q>
+        Un connecteur VGA (angl. Video Graphics Array) est un connecteur de type D-sub, plus précisément DE-15. Il est utilisé pour connecter une carte graphique à un écran d'ordinateur en analogique ou pour connecter un ecran...etc
+    </q>
+        <span>—Wikipedia</span>
+
+        <figure>
+            <img src="Images/vga.jpg" alt="" width="400px">
+            <figcaption>VGA</figcaption>
+        </figure>
+        
+
+        <hr>
+
+        <h3 id="chipset">## Chipset</h3>
+        <q>
+            Un chipset est un jeu de composants électroniques inclus dans un circuit intégré préprogrammé, <b>permettant de gérer les flux de données numériques entre le ou les processeur, la mémoire et les périphériques.</b>
+        </q>
+        <span>—Wikipedia</span>
+
+        <figure>
+            <img src="Images/chipset.JPG" alt="" width="400px">
+            <figcaption>Chipset (gauche) et processeur (droite)</figcaption>
+        </figure>
+        
 
 
     </main>
     <footer>
-        <p>2023</p>
-        <p>Image source</p>
+        <p>2023 - Ghassen Faidi PIIM</p>
+        <p>Le source de la plupart des images est <em>wikimedia.org</em></p>
+        <a href="#top">retourner au guide</a>
     </footer>
     
 
